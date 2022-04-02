@@ -1,4 +1,3 @@
-import './components/slider.js'
-
-let x = 0
-console.log(x)
+import $ from 'jquery'
+import './components/slider'
+import './components/navigation'
