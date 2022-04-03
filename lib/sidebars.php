@@ -14,7 +14,7 @@ function _themename__sidebar_widgets(){
 
 $footer_layout ='3,3,3,3';
 $columns = explode(',', $footer_layout);
-$footer_bg = 'dark';
+$footer_bg = _themename__sanitize_footer_bg(get_theme_mod( '_themename__footer_bg', 'dark' ));
 $widget_theme = '';
 if($footer_bg == 'light'){
     $widget_theme = 'c-footer-widget--dark';
